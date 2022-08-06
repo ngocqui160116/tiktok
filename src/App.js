@@ -21,6 +21,7 @@ function App() {
           Learn React
         </a>
         <Button />
+        <h1>hi</h1>
       </header>
     </div>
   );
