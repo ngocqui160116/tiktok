@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark,faMagnifyingGlass,faSpinner } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react/headless';
 
+import Button from '~/components/Button';
 import { Wrapper as PoperWrapper } from '~/components/Popper';
 import styles from './Header.module.scss';
 import images from '~/assets/images';
@@ -17,7 +18,7 @@ function Header(){
     
     useEffect(() =>{
         setTimeout(() => {
-            setSearchResult([1,2,3])
+            setSearchResult([])
         }, 0);
     },[])
 
@@ -55,7 +56,13 @@ function Header(){
                     </div>
                 </Tippy>
                 <div className={cx('actions')}>
-                    <h1>actions</h1>
+                    <Button text >
+                       Tải lên
+                    </Button>
+                    <Button primary >
+                        Đăng nhập
+                    </Button>
+                    
                 </div>
             </div>
         </header>)
