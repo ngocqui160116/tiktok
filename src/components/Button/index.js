@@ -53,9 +53,9 @@ function Button({
     });
     return (
         <Component className={classes} {...props}>
-            {leftIcon && <span className={cx('left-icon')}>{leftIcon}</span>}
+            {leftIcon && <span className={cx('icon')}>{leftIcon}</span>}
             <span className={cx('title')}>{children}</span>
-            {rightIcon && <span className={cx('right-icon')}>{rightIcon}</span>}
+            {rightIcon && <span className={cx('icon')}>{rightIcon}</span>}
         </Component>
     );
 }

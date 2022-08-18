@@ -10,9 +10,11 @@
     cursor: pointer;
     background-color: var(--white);
     border: 1px solid transparent;
+    font-family: 'ProximaNova', sans-serif;
+    user-select: none;
 
     + .wrapper{
-        margin-left: 16px;
+        margin-left: 8px;
     }
     
     &.disabled{
@@ -21,15 +23,19 @@
     }
 }
 
-.left-icon + .title,
-.title + .right-icon{
+.icon + .title,
+.title + .icon{
     margin-left: 8px;
 }
-.left-icon,
-.right-icon{
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
     display: inline-block;
-    width: 24px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 //types
@@ -52,13 +58,12 @@
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),#FE2C55
     }
 }
-.outline{
-    border-color: var(--primary);
+.outline {
     color: var(--primary);
-
-    &:hover{
-        border-color: var(--primary);
-        background-color: rgba(254,44,85,0.06);
+    border-color: currentColor;
+    &:hover {
+        border-color: currentColor;
+        background-color: rgba(254, 44, 85, 0.06);
     }
 }
 .text{
