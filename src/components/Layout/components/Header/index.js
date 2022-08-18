@@ -32,6 +32,68 @@ const MENU_ITEMS = [
                     type: 'language',
                     code: 'vie',
                     title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
+                },{
+                    type: 'language',
+                    code: 'en',
+                    title: 'English'
+                },
+                {
+                    type: 'language',
+                    code: 'vie',
+                    title: 'Tiếng Việt'
                 },
             ]
         }
