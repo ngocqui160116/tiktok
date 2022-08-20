@@ -21,7 +21,7 @@ const MENU_ITEMS = [
         icon: <FontAwesomeIcon icon={faEarthAsia}/>,
         title: 'Tiếng Việt',
         children: {
-            title: 'Language',
+            title: 'Ngôn ngữ',
             data:[
                 {
                     type: 'language',
